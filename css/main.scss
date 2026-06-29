@@ -1,0 +1,20 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+// Include any default variable overrides here (though functions won't be available)
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+$custom-colors:(
+    "graphite": #2F3136,
+    "toffeebrown": #916857,
+    "dustytaupe1": #B79884,
+    "khakibeige": #C3AF99,
+    "dustytaupe2": #927B6D,
+    "black": #FFFFFF,
+);
+
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
