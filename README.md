@@ -4,3 +4,8 @@
 
 ## Collaborateurs
 - Blood(BloodOfDarkness)
+
+## Installations
+- visual studio code 
+- **npm** requis pour les ressources SASS de bootstrap
+
